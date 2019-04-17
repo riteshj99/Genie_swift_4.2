@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Genie' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+    pod 'IQKeyboardManager'
+  	pod 'SDWebImage'
+	pod 'Alamofire'
+	pod "KRProgressHUD"
+	pod 'SwiftyJSON'
+    pod 'CarbonKit'
+  
+    pod 'FBSDKLoginKit'
+    pod 'AccountKit'
+    pod 'Koloda'
+    pod 'FAPanels'
+    pod "GBHFacebookImagePicker"
+    pod 'CropViewController'
+    pod 'NearbyMessages'
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+    pod 'VisualEffectView', '~> 3.1'
+
+    pod 'EddystoneScanner'
+    pod 'BRYXBanner', '~> 0.8'
+    pod 'PulsingHalo', '~> 0.2'
+    pod 'SABlurImageView', '~> 5.0'
+   pod 'Socket.IO-Client-Swift', '~> 13.4' 
+   pod 'GeoJSON', '~> 0.3' 
+  # Pods for Genie
+end
+

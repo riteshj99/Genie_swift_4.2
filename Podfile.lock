@@ -1,0 +1,215 @@
+PODS:
+  - AccountKit (4.35.0)
+  - Alamofire (4.7.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - BRYXBanner (0.8.3)
+  - CarbonKit (2.2.2)
+  - CropViewController (2.3.8)
+  - EddystoneScanner (1.1.5)
+  - FAPanels (0.5.0)
+  - FBSDKCoreKit (4.34.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.34.0):
+    - FBSDKCoreKit
+  - Firebase/Core (5.7.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.1.1)
+  - Firebase/CoreOnly (5.7.0):
+    - FirebaseCore (= 5.1.2)
+  - Firebase/Messaging (5.7.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.1.1)
+  - FirebaseAnalytics (5.1.1):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2.0)
+    - GoogleUtilities/MethodSwizzler (~> 5.2.0)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.2):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.1):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+  - FirebaseMessaging (3.1.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GBHFacebookImagePicker (2.4.0):
+    - FBSDKCoreKit (~> 4.34.0)
+    - FBSDKLoginKit (~> 4.34.0)
+  - GeoJSON (0.3.3)
+  - GoogleAppMeasurement (5.1.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2.0)
+    - GoogleUtilities/MethodSwizzler (~> 5.2.0)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities/AppDelegateSwizzler (5.2.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.2.3)
+  - GoogleUtilities/Logger (5.2.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.2.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.2.3)"
+  - GoogleUtilities/Reachability (5.2.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesLegacy (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - IQKeyboardManager (6.0.4)
+  - Koloda (4.3.1):
+    - pop (~> 1.0)
+  - KRActivityIndicatorView (2.1.2)
+  - KRProgressHUD (3.2.2):
+    - KRActivityIndicatorView (= 2.1.2)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NearbyMessages (1.1.1):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilitiesLegacy (~> 1.3)
+  - pop (1.0.10)
+  - Protobuf (3.6.1)
+  - PulsingHalo (0.2.8)
+  - SABlurImageView (5.0.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - Socket.IO-Client-Swift (13.4.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - SwiftyJSON (4.1.0)
+  - VisualEffectView (3.1.0)
+
+DEPENDENCIES:
+  - AccountKit
+  - Alamofire
+  - BRYXBanner (~> 0.8)
+  - CarbonKit
+  - CropViewController
+  - EddystoneScanner
+  - FAPanels
+  - FBSDKLoginKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - GBHFacebookImagePicker
+  - GeoJSON (~> 0.3)
+  - IQKeyboardManager
+  - Koloda
+  - KRProgressHUD
+  - NearbyMessages
+  - PulsingHalo (~> 0.2)
+  - SABlurImageView (~> 5.0)
+  - SDWebImage
+  - Socket.IO-Client-Swift (~> 13.4)
+  - SwiftyJSON
+  - VisualEffectView (~> 3.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AccountKit
+    - Alamofire
+    - Bolts
+    - BRYXBanner
+    - CarbonKit
+    - CropViewController
+    - EddystoneScanner
+    - FAPanels
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GBHFacebookImagePicker
+    - GeoJSON
+    - GoogleAppMeasurement
+    - GoogleInterchangeUtilities
+    - GoogleNetworkingUtilities
+    - GoogleSymbolUtilities
+    - GoogleUtilities
+    - GoogleUtilitiesLegacy
+    - IQKeyboardManager
+    - Koloda
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - nanopb
+    - NearbyMessages
+    - pop
+    - Protobuf
+    - PulsingHalo
+    - SABlurImageView
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - VisualEffectView
+
+SPEC CHECKSUMS:
+  AccountKit: 870ccaf5d33facda9408783e28fbe68c5211e069
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  BRYXBanner: 8cf1b119792e1cee8d7ba107297ef89f7409bc53
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  CropViewController: 7be882b7d3fb3faef48a41924e80f689e9df2514
+  EddystoneScanner: 771773cf97e37c3047e1f9e0b6c503640061f1b8
+  FAPanels: def3b6e1e407ea1d1198d1acddc9d855d9e418ec
+  FBSDKCoreKit: 0ff57f093b85c8c9d5aba697d3edf68a8960ce78
+  FBSDKLoginKit: 8c78f57a145afb756e4755e69195ebe08a42466e
+  Firebase: 734a4f92957aa6c40e7ae3fda3d9359e1890aa87
+  FirebaseAnalytics: 993577e91157feb40945abedd6ab346d8a4b6ac8
+  FirebaseCore: 3a97432acb324b439fbed338e642f9cbb516a63d
+  FirebaseInstanceID: ea5af6920d0a4a29b40459d055bebe4a6c1333c4
+  FirebaseMessaging: 698c94dd1e3436346c29bb9c85dcdca4c4a0c30b
+  GBHFacebookImagePicker: 4b2a4f71cba479c733fc57fc76bcb51b72324695
+  GeoJSON: 92d886a3ee9e587b7410388456145eb4b71cdbfc
+  GoogleAppMeasurement: f7507b39b70ad0bd80b3d81518b2f43868974307
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 6f681e27050c5e130325e89fa0316dfca826f954
+  GoogleUtilitiesLegacy: 5501bedec1646bd284286eb5fc9453f7e23a12f4
+  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  Koloda: 0d39b2aa188ccd1fac48d752acaf9802e683c625
+  KRActivityIndicatorView: 27e7a7e3da7fbc8e5405fbc4088b51cc2095a410
+  KRProgressHUD: 8872da74b1c462e15c82a8fff250a2d34ee82ea2
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NearbyMessages: bd9e88f2df7fbab78be58fed58580d5d5bd62cbf
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PulsingHalo: 64938e4bd3893b823abdf01478084cd92445af2b
+  SABlurImageView: 8640919c27208ada65e279ec17d7428408fedf89
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Socket.IO-Client-Swift: 2b2720f14c92ff1237ced09bc2f2da2022624fee
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  VisualEffectView: 922eedf8d7d7e776a367ac11e0a4d4a0b2ba3545
+
+PODFILE CHECKSUM: 132d1f7ad998e5825ff1fc8d885cf5f6922baf5a
+
+COCOAPODS: 1.5.3

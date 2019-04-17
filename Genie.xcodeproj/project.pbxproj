@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0500D26E21DE26F10097B93F /* ChatConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0500D26D21DE26F10097B93F /* ChatConversation.swift */; };
+		0500D27021DE33390097B93F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0500D26F21DE33390097B93F /* ChatVC.swift */; };
+		0500D27221DF3C990097B93F /* ChatSendMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0500D27121DF3C980097B93F /* ChatSendMessages.swift */; };
+		0500D27421DF3D7C0097B93F /* ChatModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0500D27321DF3D7C0097B93F /* ChatModelView.swift */; };
+		050B6E84213E9B1500D9380F /* FacebookProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B6E83213E9B1500D9380F /* FacebookProfileVC.swift */; };
+		050B6E86213EB41300D9380F /* KismetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B6E85213EB41300D9380F /* KismetVM.swift */; };
+		050B6E88213EB8CB00D9380F /* KismetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B6E87213EB8CB00D9380F /* KismetModel.swift */; };
+		050B6E92213FE77000D9380F /* ImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B6E91213FE77000D9380F /* ImageCropperVC.swift */; };
+		051311BE20FF49B100F86CCC /* SetUpProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051311BD20FF49B100F86CCC /* SetUpProfileVC.swift */; };
+		051311C020FF5E6D00F86CCC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051311BF20FF5E6D00F86CCC /* HomeVC.swift */; };
+		051311C420FF6A0800F86CCC /* VerifyNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051311C320FF6A0800F86CCC /* VerifyNumberVC.swift */; };
+		051311C620FF706100F86CCC /* ProtectAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051311C520FF706100F86CCC /* ProtectAccountVC.swift */; };
+		051311C820FF742100F86CCC /* AddProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051311C720FF742100F86CCC /* AddProfileVC.swift */; };
+		051F98A5214FC32A009FA0B3 /* BLEDeviceDiscoverServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F989F214FC328009FA0B3 /* BLEDeviceDiscoverServices.swift */; };
+		051F98A6214FC32A009FA0B3 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F98A0214FC328009FA0B3 /* BLEManager.swift */; };
+		051F98A7214FC32A009FA0B3 /* BLEDeviceConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F98A1214FC328009FA0B3 /* BLEDeviceConnection.swift */; };
+		051F98A8214FC32A009FA0B3 /* BLEDeviceScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F98A2214FC328009FA0B3 /* BLEDeviceScan.swift */; };
+		051F98A9214FC32A009FA0B3 /* BLEDeviceProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F98A3214FC328009FA0B3 /* BLEDeviceProperties.swift */; };
+		051F98AA214FC32A009FA0B3 /* BLEDeviceRSSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F98A4214FC328009FA0B3 /* BLEDeviceRSSI.swift */; };
+		051F98AC214FD042009FA0B3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051F98AB214FD041009FA0B3 /* CoreBluetooth.framework */; };
+		051F98AE214FD04D009FA0B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051F98AD214FD04C009FA0B3 /* AVFoundation.framework */; };
+		05235ED32127FE64004D42B4 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05235ED22127FE64004D42B4 /* ProfileVM.swift */; };
+		052487FC2130134B00BE08F3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052487FB2130134B00BE08F3 /* SettingsVC.swift */; };
+		052FE8A8212EC7B900DE66E5 /* KismetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052FE8A7212EC7B900DE66E5 /* KismetVC.swift */; };
+		052FE8AA212EC7D600DE66E5 /* TriGenieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052FE8A9212EC7D600DE66E5 /* TriGenieVC.swift */; };
+		0530AD1721C8D40900B92AD1 /* CrushRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530AD1621C8D40900B92AD1 /* CrushRequestVC.swift */; };
+		0530AD1921C8D43400B92AD1 /* KismetRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530AD1821C8D43400B92AD1 /* KismetRequestVC.swift */; };
+		0530AD1B21C8F26200B92AD1 /* RevealYourSelfModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530AD1A21C8F26200B92AD1 /* RevealYourSelfModel.swift */; };
+		0530AD1D21C8F6F800B92AD1 /* RevealYourSelfVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530AD1C21C8F6F800B92AD1 /* RevealYourSelfVM.swift */; };
+		0557CD2920FDF84100EC7C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557CD2820FDF84100EC7C53 /* AppDelegate.swift */; };
+		0557CD2B20FDF84100EC7C53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557CD2A20FDF84100EC7C53 /* ViewController.swift */; };
+		0557CD2E20FDF84100EC7C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0557CD2C20FDF84100EC7C53 /* Main.storyboard */; };
+		0557CD3120FDF84100EC7C53 /* Genie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0557CD2F20FDF84100EC7C53 /* Genie.xcdatamodeld */; };
+		0557CD3620FDF84400EC7C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0557CD3420FDF84400EC7C53 /* LaunchScreen.storyboard */; };
+		0557CD3E20FDFE4700EC7C53 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557CD3D20FDFE4700EC7C53 /* Extension.swift */; };
+		055C36722171F59F006BA075 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055C36712171F59F006BA075 /* UploadImageModel.swift */; };
+		0560F1972137F4890099FB91 /* WishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560F1962137F4890099FB91 /* WishModel.swift */; };
+		0560F1992139128C0099FB91 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560F1982139128C0099FB91 /* CardView.swift */; };
+		0560F19B21392AC60099FB91 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560F19A21392AC60099FB91 /* MyProfileVC.swift */; };
+		0565AABF215A60F900B1EEFA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0565AABE215A60F900B1EEFA /* DataManager.swift */; };
+		056BDD3F21CCD3CA00B14AAC /* GetFullImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDD3E21CCD3CA00B14AAC /* GetFullImageVC.swift */; };
+		056BDD4E21CE0EB600B14AAC /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDD4D21CE0EB600B14AAC /* MessagesVC.swift */; };
+		056BDD9421D22F0900B14AAC /* SendKismetConnectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDD9321D22F0800B14AAC /* SendKismetConnectionData.swift */; };
+		056D005A21353F5000CB3442 /* UpdateProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D005921353F5000CB3442 /* UpdateProfileModel.swift */; };
+		056D005C213562DF00CB3442 /* MenuBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D005B213562DF00CB3442 /* MenuBarVC.swift */; };
+		056D00812136A38400CB3442 /* DashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D00802136A38400CB3442 /* DashboardVM.swift */; };
+		056D00832136BCF800CB3442 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D00822136BCF800CB3442 /* SessionManager.swift */; };
+		0573F6AF21143F8500C37BB2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573F6AE21143F8500C37BB2 /* ProfileVC.swift */; };
+		0575047B2164E031009C7E24 /* SMRippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0575047A2164E030009C7E24 /* SMRippleView.swift */; };
+		057738D5212D54A3007FF4FC /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057738D4212D54A2007FF4FC /* OverlayView.xib */; };
+		057738D7212D566E007FF4FC /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057738D6212D566D007FF4FC /* ExampleOverlayView.swift */; };
+		057738D9212D70B7007FF4FC /* WishVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057738D8212D70B7007FF4FC /* WishVM.swift */; };
+		058FEAAA21D34D730006A077 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FEAA921D34D730006A077 /* DataBaseHelper.swift */; };
+		0594538A20FE23A8003895FE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0594538920FE23A8003895FE /* Utility.swift */; };
+		0594538C20FE23D0003895FE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0594538B20FE23D0003895FE /* Constant.swift */; };
+		0596F3F52146472100D0FBE4 /* ViewUserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0596F3F42146472100D0FBE4 /* ViewUserProfileVC.swift */; };
+		05B3F86221A6DFBB0030B4E5 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B3F86121A6DFBA0030B4E5 /* Device.swift */; };
+		05B8D02F21D65D6400510FF9 /* SendKismetConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B8D02E21D65D6300510FF9 /* SendKismetConnectionModel.swift */; };
+		05C2CD692126D69A007FC08D /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2CD682126D69A007FC08D /* HomeVM.swift */; };
+		05C2CD6B2126DDCE007FC08D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2CD6A2126DDCE007FC08D /* HomeModel.swift */; };
+		05CC2F67214A3AA0003AD576 /* RNLBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F49214A3AA0003AD576 /* RNLBeacon.m */; };
+		05CC2F68214A3AA0003AD576 /* RNLLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F4A214A3AA0003AD576 /* RNLLocationTracker.m */; };
+		05CC2F69214A3AA0003AD576 /* RNLBeaconParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F4C214A3AA0003AD576 /* RNLBeaconParser.m */; };
+		05CC2F6A214A3AA0003AD576 /* RNLBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F4D214A3AA0003AD576 /* RNLBeaconScanner.m */; };
+		05CC2F6B214A3AA0003AD576 /* RNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F4E214A3AA0003AD576 /* RNLAppDelegate.m */; };
+		05CC2F6C214A3AA0003AD576 /* RNLBeacon+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F50214A3AA0003AD576 /* RNLBeacon+Distance.m */; };
+		05CC2F6D214A3AA0003AD576 /* RNLBeaconTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F51214A3AA0003AD576 /* RNLBeaconTracker.m */; };
+		05CC2F6E214A3AA0003AD576 /* RNLBeaconTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F53214A3AA0003AD576 /* RNLBeaconTableViewController.m */; };
+		05CC2F73214A3AA0003AD576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CC2F5D214A3AA0003AD576 /* Images.xcassets */; };
+		05CC2F75214A3AA0003AD576 /* RNLURLBeaconCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F62214A3AA0003AD576 /* RNLURLBeaconCompressor.m */; };
+		05CC2F76214A3AA0003AD576 /* RNLSignalMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC2F65214A3AA0003AD576 /* RNLSignalMeasurement.m */; };
+		05CC2F77214A3AA0003AD576 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05CC2F66214A3AA0003AD576 /* Info.plist */; };
+		05CCC84C212300B600007B10 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCC84B212300B600007B10 /* DashBoardVC.swift */; };
+		05CCC84E212305E700007B10 /* WishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCC84D212305E700007B10 /* WishVC.swift */; };
+		05CDF8A5216E0AA800F858BB /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CDF8A4216E0AA700F858BB /* HistoryVC.swift */; };
+		05CDF8A7216E1D2000F858BB /* HistoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CDF8A6216E1D2000F858BB /* HistoryVM.swift */; };
+		05CDF8A9216E206600F858BB /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CDF8A8216E206600F858BB /* HistoryModel.swift */; };
+		05D2B9E721DF741C0030578A /* SocketSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D2B9E621DF741C0030578A /* SocketSetup.swift */; };
+		05EA240721BA7E9100F612EC /* MatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EA240621BA7E9100F612EC /* MatchesVC.swift */; };
+		05FEC565222D7E9A00C376F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05FEC564222D7E9A00C376F5 /* GoogleService-Info.plist */; };
+		91152EBA225D140F00A07B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91152EB9225D140E00A07B4E /* Assets.xcassets */; };
+		91B704DD22623EB0000452DE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B704DC22623EAF000452DE /* GradientView.swift */; };
+		9A1E960F92AFFC2E6124D41C /* Pods_Genie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8C7C01EBE08E3042643F00 /* Pods_Genie.framework */; };
+		BB20171F21216E400038E94A /* FacebookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20171E21216E400038E94A /* FacebookModel.swift */; };
+		BB2017222121AA070038E94A /* FacebookProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2017212121AA070038E94A /* FacebookProfileVM.swift */; };
+		BBD0DD4D211EA755009B6E2A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD0DD4C211EA754009B6E2A /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0500D26D21DE26F10097B93F /* ChatConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversation.swift; sourceTree = "<group>"; };
+		0500D26F21DE33390097B93F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		0500D27121DF3C980097B93F /* ChatSendMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSendMessages.swift; sourceTree = "<group>"; };
+		0500D27321DF3D7C0097B93F /* ChatModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModelView.swift; sourceTree = "<group>"; };
+		050B6E80213E603F00D9380F /* Genie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Genie-Bridging-Header.h"; sourceTree = "<group>"; };
+		050B6E83213E9B1500D9380F /* FacebookProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookProfileVC.swift; sourceTree = "<group>"; };
+		050B6E85213EB41300D9380F /* KismetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KismetVM.swift; sourceTree = "<group>"; };
+		050B6E87213EB8CB00D9380F /* KismetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KismetModel.swift; sourceTree = "<group>"; };
+		050B6E91213FE77000D9380F /* ImageCropperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperVC.swift; sourceTree = "<group>"; };
+		051311BD20FF49B100F86CCC /* SetUpProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpProfileVC.swift; sourceTree = "<group>"; };
+		051311BF20FF5E6D00F86CCC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		051311C320FF6A0800F86CCC /* VerifyNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumberVC.swift; sourceTree = "<group>"; };
+		051311C520FF706100F86CCC /* ProtectAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectAccountVC.swift; sourceTree = "<group>"; };
+		051311C720FF742100F86CCC /* AddProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileVC.swift; sourceTree = "<group>"; };
+		051F989F214FC328009FA0B3 /* BLEDeviceDiscoverServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceDiscoverServices.swift; sourceTree = "<group>"; };
+		051F98A0214FC328009FA0B3 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		051F98A1214FC328009FA0B3 /* BLEDeviceConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceConnection.swift; sourceTree = "<group>"; };
+		051F98A2214FC328009FA0B3 /* BLEDeviceScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceScan.swift; sourceTree = "<group>"; };
+		051F98A3214FC328009FA0B3 /* BLEDeviceProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceProperties.swift; sourceTree = "<group>"; };
+		051F98A4214FC328009FA0B3 /* BLEDeviceRSSI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceRSSI.swift; sourceTree = "<group>"; };
+		051F98AB214FD041009FA0B3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		051F98AD214FD04C009FA0B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		05235ED22127FE64004D42B4 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		052487FB2130134B00BE08F3 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		052CD5F7215E2E47008944DB /* Genie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Genie.entitlements; sourceTree = "<group>"; };
+		052FE8A7212EC7B900DE66E5 /* KismetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KismetVC.swift; sourceTree = "<group>"; };
+		052FE8A9212EC7D600DE66E5 /* TriGenieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriGenieVC.swift; sourceTree = "<group>"; };
+		0530AD1621C8D40900B92AD1 /* CrushRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrushRequestVC.swift; sourceTree = "<group>"; };
+		0530AD1821C8D43400B92AD1 /* KismetRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KismetRequestVC.swift; sourceTree = "<group>"; };
+		0530AD1A21C8F26200B92AD1 /* RevealYourSelfModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealYourSelfModel.swift; sourceTree = "<group>"; };
+		0530AD1C21C8F6F800B92AD1 /* RevealYourSelfVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealYourSelfVM.swift; sourceTree = "<group>"; };
+		0557CD2520FDF84100EC7C53 /* Genie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0557CD2820FDF84100EC7C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0557CD2A20FDF84100EC7C53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0557CD2D20FDF84100EC7C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0557CD3020FDF84100EC7C53 /* Genie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Genie.xcdatamodel; sourceTree = "<group>"; };
+		0557CD3520FDF84400EC7C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0557CD3720FDF84400EC7C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0557CD3D20FDFE4700EC7C53 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		055C36712171F59F006BA075 /* UploadImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageModel.swift; sourceTree = "<group>"; };
+		0560F1962137F4890099FB91 /* WishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishModel.swift; sourceTree = "<group>"; };
+		0560F1982139128C0099FB91 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0560F19A21392AC60099FB91 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		0565AABE215A60F900B1EEFA /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		056BDD3E21CCD3CA00B14AAC /* GetFullImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFullImageVC.swift; sourceTree = "<group>"; };
+		056BDD4D21CE0EB600B14AAC /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		056BDD9321D22F0800B14AAC /* SendKismetConnectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendKismetConnectionData.swift; sourceTree = "<group>"; };
+		056D005921353F5000CB3442 /* UpdateProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileModel.swift; sourceTree = "<group>"; };
+		056D005B213562DF00CB3442 /* MenuBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarVC.swift; sourceTree = "<group>"; };
+		056D00802136A38400CB3442 /* DashboardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVM.swift; sourceTree = "<group>"; };
+		056D00822136BCF800CB3442 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		0573F6AE21143F8500C37BB2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		0575047A2164E030009C7E24 /* SMRippleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMRippleView.swift; sourceTree = "<group>"; };
+		057738D4212D54A2007FF4FC /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		057738D6212D566D007FF4FC /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		057738D8212D70B7007FF4FC /* WishVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishVM.swift; sourceTree = "<group>"; };
+		058FEAA921D34D730006A077 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		0594538920FE23A8003895FE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0594538B20FE23D0003895FE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0596F3F42146472100D0FBE4 /* ViewUserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUserProfileVC.swift; sourceTree = "<group>"; };
+		05B3F86121A6DFBA0030B4E5 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		05B8D02E21D65D6300510FF9 /* SendKismetConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendKismetConnectionModel.swift; sourceTree = "<group>"; };
+		05C2CD682126D69A007FC08D /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		05C2CD6A2126DDCE007FC08D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		05CC2F49214A3AA0003AD576 /* RNLBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeacon.m; sourceTree = "<group>"; };
+		05CC2F4A214A3AA0003AD576 /* RNLLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLLocationTracker.m; sourceTree = "<group>"; };
+		05CC2F4C214A3AA0003AD576 /* RNLBeaconParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconParser.m; sourceTree = "<group>"; };
+		05CC2F4D214A3AA0003AD576 /* RNLBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconScanner.m; sourceTree = "<group>"; };
+		05CC2F4E214A3AA0003AD576 /* RNLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLAppDelegate.m; sourceTree = "<group>"; };
+		05CC2F4F214A3AA0003AD576 /* RNLURLBeaconCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLURLBeaconCompressor.h; sourceTree = "<group>"; };
+		05CC2F50214A3AA0003AD576 /* RNLBeacon+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNLBeacon+Distance.m"; sourceTree = "<group>"; };
+		05CC2F51214A3AA0003AD576 /* RNLBeaconTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconTracker.m; sourceTree = "<group>"; };
+		05CC2F52214A3AA0003AD576 /* RNLSignalMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLSignalMeasurement.h; sourceTree = "<group>"; };
+		05CC2F53214A3AA0003AD576 /* RNLBeaconTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBeaconTableViewController.m; sourceTree = "<group>"; };
+		05CC2F59214A3AA0003AD576 /* RNLBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeacon.h; sourceTree = "<group>"; };
+		05CC2F5A214A3AA0003AD576 /* RNLLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLLocationTracker.h; sourceTree = "<group>"; };
+		05CC2F5C214A3AA0003AD576 /* RNLBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconScanner.h; sourceTree = "<group>"; };
+		05CC2F5D214A3AA0003AD576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05CC2F5E214A3AA0003AD576 /* RNLBeaconParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconParser.h; sourceTree = "<group>"; };
+		05CC2F60214A3AA0003AD576 /* RNLBeaconTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconTracker.h; sourceTree = "<group>"; };
+		05CC2F61214A3AA0003AD576 /* RNLBeacon+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNLBeacon+Distance.h"; sourceTree = "<group>"; };
+		05CC2F62214A3AA0003AD576 /* RNLURLBeaconCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLURLBeaconCompressor.m; sourceTree = "<group>"; };
+		05CC2F63214A3AA0003AD576 /* RNLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLAppDelegate.h; sourceTree = "<group>"; };
+		05CC2F64214A3AA0003AD576 /* RNLBeaconTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBeaconTableViewController.h; sourceTree = "<group>"; };
+		05CC2F65214A3AA0003AD576 /* RNLSignalMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLSignalMeasurement.m; sourceTree = "<group>"; };
+		05CC2F66214A3AA0003AD576 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CCC84B212300B600007B10 /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		05CCC84D212305E700007B10 /* WishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishVC.swift; sourceTree = "<group>"; };
+		05CDF8A4216E0AA700F858BB /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		05CDF8A6216E1D2000F858BB /* HistoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVM.swift; sourceTree = "<group>"; };
+		05CDF8A8216E206600F858BB /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		05D2B9E621DF741C0030578A /* SocketSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketSetup.swift; sourceTree = "<group>"; };
+		05EA240621BA7E9100F612EC /* MatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesVC.swift; sourceTree = "<group>"; };
+		05FEC564222D7E9A00C376F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		202E9911DC3D724A46A22E10 /* Pods-Genie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Genie/Pods-Genie.debug.xcconfig"; sourceTree = "<group>"; };
+		800294BE5409440B92B692D0 /* Pods-Genie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Genie/Pods-Genie.release.xcconfig"; sourceTree = "<group>"; };
+		91152EB9225D140E00A07B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91B704DC22623EAF000452DE /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BB20171E21216E400038E94A /* FacebookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookModel.swift; sourceTree = "<group>"; };
+		BB2017212121AA070038E94A /* FacebookProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProfileVM.swift; sourceTree = "<group>"; };
+		BBD0DD4C211EA754009B6E2A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BD8C7C01EBE08E3042643F00 /* Pods_Genie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0557CD2220FDF84100EC7C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F98AE214FD04D009FA0B3 /* AVFoundation.framework in Frameworks */,
+				051F98AC214FD042009FA0B3 /* CoreBluetooth.framework in Frameworks */,
+				9A1E960F92AFFC2E6124D41C /* Pods_Genie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051F989D214FC328009FA0B3 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				051F989E214FC328009FA0B3 /* Module */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		051F989E214FC328009FA0B3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				051F989F214FC328009FA0B3 /* BLEDeviceDiscoverServices.swift */,
+				051F98A0214FC328009FA0B3 /* BLEManager.swift */,
+				051F98A1214FC328009FA0B3 /* BLEDeviceConnection.swift */,
+				051F98A2214FC328009FA0B3 /* BLEDeviceScan.swift */,
+				051F98A3214FC328009FA0B3 /* BLEDeviceProperties.swift */,
+				051F98A4214FC328009FA0B3 /* BLEDeviceRSSI.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0557CD1C20FDF84000EC7C53 = {
+			isa = PBXGroup;
+			children = (
+				05FEC564222D7E9A00C376F5 /* GoogleService-Info.plist */,
+				0557CD2720FDF84100EC7C53 /* Genie */,
+				0557CD2620FDF84100EC7C53 /* Products */,
+				71ED0EDADFABB30DE6B80785 /* Pods */,
+				A2BB6098DA92450908E6B1BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0557CD2620FDF84100EC7C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0557CD2520FDF84100EC7C53 /* Genie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0557CD2720FDF84100EC7C53 /* Genie */ = {
+			isa = PBXGroup;
+			children = (
+				052CD5F7215E2E47008944DB /* Genie.entitlements */,
+				0557CD2820FDF84100EC7C53 /* AppDelegate.swift */,
+				91B704DC22623EAF000452DE /* GradientView.swift */,
+				0594539020FE246D003895FE /* Helper Classes */,
+				BB20172021216E4C0038E94A /* Model */,
+				0594539220FE24B4003895FE /* View */,
+				0594539120FE2488003895FE /* Controller */,
+				BB2017232121ABF90038E94A /* ViewModel */,
+				05CC2F48214A3AA0003AD576 /* ios-beacon-tools */,
+				051F989D214FC328009FA0B3 /* BLE */,
+				BB2017242121AC1A0038E94A /* New Group */,
+				0557CD3720FDF84400EC7C53 /* Info.plist */,
+				0557CD2F20FDF84100EC7C53 /* Genie.xcdatamodeld */,
+				0594538F20FE245B003895FE /* Data Manager */,
+			);
+			path = Genie;
+			sourceTree = "<group>";
+		};
+		0594538F20FE245B003895FE /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0565AABE215A60F900B1EEFA /* DataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		0594539020FE246D003895FE /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0557CD3D20FDFE4700EC7C53 /* Extension.swift */,
+				0594538920FE23A8003895FE /* Utility.swift */,
+				0594538B20FE23D0003895FE /* Constant.swift */,
+				056D00822136BCF800CB3442 /* SessionManager.swift */,
+				058FEAA921D34D730006A077 /* DataBaseHelper.swift */,
+				050B6E80213E603F00D9380F /* Genie-Bridging-Header.h */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		0594539120FE2488003895FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0557CD2A20FDF84100EC7C53 /* ViewController.swift */,
+				051311BD20FF49B100F86CCC /* SetUpProfileVC.swift */,
+				051311BF20FF5E6D00F86CCC /* HomeVC.swift */,
+				050B6E83213E9B1500D9380F /* FacebookProfileVC.swift */,
+				051311C320FF6A0800F86CCC /* VerifyNumberVC.swift */,
+				051311C520FF706100F86CCC /* ProtectAccountVC.swift */,
+				051311C720FF742100F86CCC /* AddProfileVC.swift */,
+				0573F6AE21143F8500C37BB2 /* ProfileVC.swift */,
+				05CCC84B212300B600007B10 /* DashBoardVC.swift */,
+				05CCC84D212305E700007B10 /* WishVC.swift */,
+				052FE8A7212EC7B900DE66E5 /* KismetVC.swift */,
+				052FE8A9212EC7D600DE66E5 /* TriGenieVC.swift */,
+				052487FB2130134B00BE08F3 /* SettingsVC.swift */,
+				056D005B213562DF00CB3442 /* MenuBarVC.swift */,
+				0560F19A21392AC60099FB91 /* MyProfileVC.swift */,
+				050B6E91213FE77000D9380F /* ImageCropperVC.swift */,
+				0596F3F42146472100D0FBE4 /* ViewUserProfileVC.swift */,
+				05CDF8A4216E0AA700F858BB /* HistoryVC.swift */,
+				05EA240621BA7E9100F612EC /* MatchesVC.swift */,
+				0530AD1821C8D43400B92AD1 /* KismetRequestVC.swift */,
+				056BDD3E21CCD3CA00B14AAC /* GetFullImageVC.swift */,
+				0530AD1621C8D40900B92AD1 /* CrushRequestVC.swift */,
+				056BDD4D21CE0EB600B14AAC /* MessagesVC.swift */,
+				0500D26F21DE33390097B93F /* ChatVC.swift */,
+				05D2B9E621DF741C0030578A /* SocketSetup.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0594539220FE24B4003895FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0557CD2C20FDF84100EC7C53 /* Main.storyboard */,
+				0557CD3420FDF84400EC7C53 /* LaunchScreen.storyboard */,
+				057738D4212D54A2007FF4FC /* OverlayView.xib */,
+				057738D6212D566D007FF4FC /* ExampleOverlayView.swift */,
+				0575047A2164E030009C7E24 /* SMRippleView.swift */,
+				0560F1982139128C0099FB91 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05CC2F48214A3AA0003AD576 /* ios-beacon-tools */ = {
+			isa = PBXGroup;
+			children = (
+				05CC2F49214A3AA0003AD576 /* RNLBeacon.m */,
+				05CC2F4A214A3AA0003AD576 /* RNLLocationTracker.m */,
+				05CC2F4C214A3AA0003AD576 /* RNLBeaconParser.m */,
+				05CC2F4D214A3AA0003AD576 /* RNLBeaconScanner.m */,
+				05CC2F4E214A3AA0003AD576 /* RNLAppDelegate.m */,
+				05CC2F4F214A3AA0003AD576 /* RNLURLBeaconCompressor.h */,
+				05CC2F50214A3AA0003AD576 /* RNLBeacon+Distance.m */,
+				05CC2F51214A3AA0003AD576 /* RNLBeaconTracker.m */,
+				05CC2F52214A3AA0003AD576 /* RNLSignalMeasurement.h */,
+				05CC2F53214A3AA0003AD576 /* RNLBeaconTableViewController.m */,
+				05CC2F59214A3AA0003AD576 /* RNLBeacon.h */,
+				05CC2F5A214A3AA0003AD576 /* RNLLocationTracker.h */,
+				05CC2F5C214A3AA0003AD576 /* RNLBeaconScanner.h */,
+				05CC2F5D214A3AA0003AD576 /* Images.xcassets */,
+				05CC2F5E214A3AA0003AD576 /* RNLBeaconParser.h */,
+				05CC2F60214A3AA0003AD576 /* RNLBeaconTracker.h */,
+				05CC2F61214A3AA0003AD576 /* RNLBeacon+Distance.h */,
+				05CC2F62214A3AA0003AD576 /* RNLURLBeaconCompressor.m */,
+				05CC2F63214A3AA0003AD576 /* RNLAppDelegate.h */,
+				05CC2F64214A3AA0003AD576 /* RNLBeaconTableViewController.h */,
+				05CC2F65214A3AA0003AD576 /* RNLSignalMeasurement.m */,
+				05CC2F66214A3AA0003AD576 /* Info.plist */,
+			);
+			path = "ios-beacon-tools";
+			sourceTree = "<group>";
+		};
+		71ED0EDADFABB30DE6B80785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				202E9911DC3D724A46A22E10 /* Pods-Genie.debug.xcconfig */,
+				800294BE5409440B92B692D0 /* Pods-Genie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2BB6098DA92450908E6B1BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051F98AD214FD04C009FA0B3 /* AVFoundation.framework */,
+				051F98AB214FD041009FA0B3 /* CoreBluetooth.framework */,
+				BD8C7C01EBE08E3042643F00 /* Pods_Genie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB20172021216E4C0038E94A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05B3F86121A6DFBA0030B4E5 /* Device.swift */,
+				BB20171E21216E400038E94A /* FacebookModel.swift */,
+				05C2CD6A2126DDCE007FC08D /* HomeModel.swift */,
+				056D005921353F5000CB3442 /* UpdateProfileModel.swift */,
+				0560F1962137F4890099FB91 /* WishModel.swift */,
+				050B6E87213EB8CB00D9380F /* KismetModel.swift */,
+				05CDF8A8216E206600F858BB /* HistoryModel.swift */,
+				055C36712171F59F006BA075 /* UploadImageModel.swift */,
+				0530AD1A21C8F26200B92AD1 /* RevealYourSelfModel.swift */,
+				056BDD9321D22F0800B14AAC /* SendKismetConnectionData.swift */,
+				0500D26D21DE26F10097B93F /* ChatConversation.swift */,
+				0500D27121DF3C980097B93F /* ChatSendMessages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB2017232121ABF90038E94A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB2017212121AA070038E94A /* FacebookProfileVM.swift */,
+				05C2CD682126D69A007FC08D /* HomeVM.swift */,
+				05235ED22127FE64004D42B4 /* ProfileVM.swift */,
+				057738D8212D70B7007FF4FC /* WishVM.swift */,
+				056D00802136A38400CB3442 /* DashboardVM.swift */,
+				050B6E85213EB41300D9380F /* KismetVM.swift */,
+				05CDF8A6216E1D2000F858BB /* HistoryVM.swift */,
+				0530AD1C21C8F6F800B92AD1 /* RevealYourSelfVM.swift */,
+				05B8D02E21D65D6300510FF9 /* SendKismetConnectionModel.swift */,
+				0500D27321DF3D7C0097B93F /* ChatModelView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB2017242121AC1A0038E94A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				91152EB9225D140E00A07B4E /* Assets.xcassets */,
+				BBD0DD4C211EA754009B6E2A /* Colors.xcassets */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0557CD2420FDF84100EC7C53 /* Genie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0557CD3A20FDF84400EC7C53 /* Build configuration list for PBXNativeTarget "Genie" */;
+			buildPhases = (
+				2E8DF76B2C5E1C0331260CD9 /* [CP] Check Pods Manifest.lock */,
+				0557CD2120FDF84100EC7C53 /* Sources */,
+				0557CD2220FDF84100EC7C53 /* Frameworks */,
+				0557CD2320FDF84100EC7C53 /* Resources */,
+				86DEAEC91A886D68018A718A /* [CP] Embed Pods Frameworks */,
+				B07C8CFE21D2149B15D4B77C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genie;
+			productName = Genie;
+			productReference = 0557CD2520FDF84100EC7C53 /* Genie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0557CD1D20FDF84000EC7C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Appzilla.tech;
+				TargetAttributes = {
+					0557CD2420FDF84100EC7C53 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0557CD2020FDF84000EC7C53 /* Build configuration list for PBXProject "Genie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0557CD1C20FDF84000EC7C53;
+			productRefGroup = 0557CD2620FDF84100EC7C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0557CD2420FDF84100EC7C53 /* Genie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0557CD2320FDF84100EC7C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CC2F73214A3AA0003AD576 /* Images.xcassets in Resources */,
+				05FEC565222D7E9A00C376F5 /* GoogleService-Info.plist in Resources */,
+				0557CD3620FDF84400EC7C53 /* LaunchScreen.storyboard in Resources */,
+				BBD0DD4D211EA755009B6E2A /* Colors.xcassets in Resources */,
+				057738D5212D54A3007FF4FC /* OverlayView.xib in Resources */,
+				05CC2F77214A3AA0003AD576 /* Info.plist in Resources */,
+				91152EBA225D140F00A07B4E /* Assets.xcassets in Resources */,
+				0557CD2E20FDF84100EC7C53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8DF76B2C5E1C0331260CD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DEAEC91A886D68018A718A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Genie/Pods-Genie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/EddystoneScanner/EddystoneScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/FAPanels/FAPanels.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GBHFacebookImagePicker/GBHFacebookImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoJSON/GeoJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PulsingHalo/PulsingHalo.framework",
+				"${BUILT_PRODUCTS_DIR}/SABlurImageView/SABlurImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/VisualEffectView/VisualEffectView.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EddystoneScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FAPanels.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GBHFacebookImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PulsingHalo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SABlurImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualEffectView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genie/Pods-Genie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07C8CFE21D2149B15D4B77C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Genie/Pods-Genie-resources.sh",
+				"${PODS_ROOT}/AccountKit/AccountKitStrings.bundle",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/GNSSharedResources.bundle",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_expand_more.xcassets",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_nearby_48pt.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccountKitStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GNSSharedResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genie/Pods-Genie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0557CD2120FDF84100EC7C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FEAAA21D34D730006A077 /* DataBaseHelper.swift in Sources */,
+				05EA240721BA7E9100F612EC /* MatchesVC.swift in Sources */,
+				05CC2F68214A3AA0003AD576 /* RNLLocationTracker.m in Sources */,
+				0500D27221DF3C990097B93F /* ChatSendMessages.swift in Sources */,
+				051311C420FF6A0800F86CCC /* VerifyNumberVC.swift in Sources */,
+				0594538A20FE23A8003895FE /* Utility.swift in Sources */,
+				052FE8AA212EC7D600DE66E5 /* TriGenieVC.swift in Sources */,
+				0573F6AF21143F8500C37BB2 /* ProfileVC.swift in Sources */,
+				05CC2F6D214A3AA0003AD576 /* RNLBeaconTracker.m in Sources */,
+				050B6E86213EB41300D9380F /* KismetVM.swift in Sources */,
+				0557CD3120FDF84100EC7C53 /* Genie.xcdatamodeld in Sources */,
+				050B6E88213EB8CB00D9380F /* KismetModel.swift in Sources */,
+				050B6E92213FE77000D9380F /* ImageCropperVC.swift in Sources */,
+				05CC2F75214A3AA0003AD576 /* RNLURLBeaconCompressor.m in Sources */,
+				056BDD4E21CE0EB600B14AAC /* MessagesVC.swift in Sources */,
+				051F98AA214FC32A009FA0B3 /* BLEDeviceRSSI.swift in Sources */,
+				051311BE20FF49B100F86CCC /* SetUpProfileVC.swift in Sources */,
+				051311C020FF5E6D00F86CCC /* HomeVC.swift in Sources */,
+				05235ED32127FE64004D42B4 /* ProfileVM.swift in Sources */,
+				0500D27021DE33390097B93F /* ChatVC.swift in Sources */,
+				051F98A9214FC32A009FA0B3 /* BLEDeviceProperties.swift in Sources */,
+				056BDD3F21CCD3CA00B14AAC /* GetFullImageVC.swift in Sources */,
+				05CC2F6A214A3AA0003AD576 /* RNLBeaconScanner.m in Sources */,
+				0596F3F52146472100D0FBE4 /* ViewUserProfileVC.swift in Sources */,
+				051F98A6214FC32A009FA0B3 /* BLEManager.swift in Sources */,
+				056D00832136BCF800CB3442 /* SessionManager.swift in Sources */,
+				05B3F86221A6DFBB0030B4E5 /* Device.swift in Sources */,
+				057738D9212D70B7007FF4FC /* WishVM.swift in Sources */,
+				051F98A7214FC32A009FA0B3 /* BLEDeviceConnection.swift in Sources */,
+				056BDD9421D22F0900B14AAC /* SendKismetConnectionData.swift in Sources */,
+				05CC2F67214A3AA0003AD576 /* RNLBeacon.m in Sources */,
+				0530AD1B21C8F26200B92AD1 /* RevealYourSelfModel.swift in Sources */,
+				051311C820FF742100F86CCC /* AddProfileVC.swift in Sources */,
+				0500D27421DF3D7C0097B93F /* ChatModelView.swift in Sources */,
+				0565AABF215A60F900B1EEFA /* DataManager.swift in Sources */,
+				05CC2F76214A3AA0003AD576 /* RNLSignalMeasurement.m in Sources */,
+				0575047B2164E031009C7E24 /* SMRippleView.swift in Sources */,
+				0500D26E21DE26F10097B93F /* ChatConversation.swift in Sources */,
+				0557CD2B20FDF84100EC7C53 /* ViewController.swift in Sources */,
+				056D00812136A38400CB3442 /* DashboardVM.swift in Sources */,
+				05CC2F6C214A3AA0003AD576 /* RNLBeacon+Distance.m in Sources */,
+				055C36722171F59F006BA075 /* UploadImageModel.swift in Sources */,
+				BB20171F21216E400038E94A /* FacebookModel.swift in Sources */,
+				05CDF8A7216E1D2000F858BB /* HistoryVM.swift in Sources */,
+				05D2B9E721DF741C0030578A /* SocketSetup.swift in Sources */,
+				051F98A5214FC32A009FA0B3 /* BLEDeviceDiscoverServices.swift in Sources */,
+				052487FC2130134B00BE08F3 /* SettingsVC.swift in Sources */,
+				91B704DD22623EB0000452DE /* GradientView.swift in Sources */,
+				05CCC84E212305E700007B10 /* WishVC.swift in Sources */,
+				05C2CD692126D69A007FC08D /* HomeVM.swift in Sources */,
+				056D005A21353F5000CB3442 /* UpdateProfileModel.swift in Sources */,
+				0557CD2920FDF84100EC7C53 /* AppDelegate.swift in Sources */,
+				052FE8A8212EC7B900DE66E5 /* KismetVC.swift in Sources */,
+				0560F1972137F4890099FB91 /* WishModel.swift in Sources */,
+				0530AD1D21C8F6F800B92AD1 /* RevealYourSelfVM.swift in Sources */,
+				0530AD1921C8D43400B92AD1 /* KismetRequestVC.swift in Sources */,
+				057738D7212D566E007FF4FC /* ExampleOverlayView.swift in Sources */,
+				051F98A8214FC32A009FA0B3 /* BLEDeviceScan.swift in Sources */,
+				05CDF8A5216E0AA800F858BB /* HistoryVC.swift in Sources */,
+				05CCC84C212300B600007B10 /* DashBoardVC.swift in Sources */,
+				05CC2F6E214A3AA0003AD576 /* RNLBeaconTableViewController.m in Sources */,
+				05B8D02F21D65D6400510FF9 /* SendKismetConnectionModel.swift in Sources */,
+				056D005C213562DF00CB3442 /* MenuBarVC.swift in Sources */,
+				050B6E84213E9B1500D9380F /* FacebookProfileVC.swift in Sources */,
+				05CC2F69214A3AA0003AD576 /* RNLBeaconParser.m in Sources */,
+				051311C620FF706100F86CCC /* ProtectAccountVC.swift in Sources */,
+				0557CD3E20FDFE4700EC7C53 /* Extension.swift in Sources */,
+				05CDF8A9216E206600F858BB /* HistoryModel.swift in Sources */,
+				05CC2F6B214A3AA0003AD576 /* RNLAppDelegate.m in Sources */,
+				0560F19B21392AC60099FB91 /* MyProfileVC.swift in Sources */,
+				05C2CD6B2126DDCE007FC08D /* HomeModel.swift in Sources */,
+				0530AD1721C8D40900B92AD1 /* CrushRequestVC.swift in Sources */,
+				BB2017222121AA070038E94A /* FacebookProfileVM.swift in Sources */,
+				0560F1992139128C0099FB91 /* CardView.swift in Sources */,
+				0594538C20FE23D0003895FE /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0557CD2C20FDF84100EC7C53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0557CD2D20FDF84100EC7C53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0557CD3420FDF84400EC7C53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0557CD3520FDF84400EC7C53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0557CD3820FDF84400EC7C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0557CD3920FDF84400EC7C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0557CD3B20FDF84400EC7C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202E9911DC3D724A46A22E10 /* Pods-Genie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Genie/Genie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T7NZ937HQM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Genie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gomedii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = SelectDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "Genie/Helper Classes/Genie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0557CD3C20FDF84400EC7C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800294BE5409440B92B692D0 /* Pods-Genie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Genie/Genie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T7NZ937HQM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Genie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gomedii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = SelectDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "Genie/Helper Classes/Genie-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0557CD2020FDF84000EC7C53 /* Build configuration list for PBXProject "Genie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0557CD3820FDF84400EC7C53 /* Debug */,
+				0557CD3920FDF84400EC7C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0557CD3A20FDF84400EC7C53 /* Build configuration list for PBXNativeTarget "Genie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0557CD3B20FDF84400EC7C53 /* Debug */,
+				0557CD3C20FDF84400EC7C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0557CD2F20FDF84100EC7C53 /* Genie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0557CD3020FDF84100EC7C53 /* Genie.xcdatamodel */,
+			);
+			currentVersion = 0557CD3020FDF84100EC7C53 /* Genie.xcdatamodel */;
+			path = Genie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0557CD1D20FDF84000EC7C53 /* Project object */;
+}
